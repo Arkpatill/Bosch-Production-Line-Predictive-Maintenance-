@@ -81,3 +81,8 @@ git clone https://github.com/YourUsername/Bosch-Predictive-Maintenance.git
 
 Model Metadata Analysis
 
+pip install -r requirements.txt
+
+python app.py
+
+
