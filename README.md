@@ -1,4 +1,4 @@
-<h1 style="font-size:40px;">📊 Predictive Maintenance for Bosch Production Line using Modern Technologies</h1>
+<h1 style="font-size:40px;"> Predictive Maintenance for Bosch Production Line using Modern Technologies</h1>
 
 ## **Introduction**
 This project leverages **Machine Learning (ML)**, **Deep Learning (DL)**, and **Power BI** to **predict failures** in Bosch production line machinery before they occur.  
@@ -77,10 +77,6 @@ This project addresses these challenges with **predictive analytics** and **real
 1. **Clone Repository**
 ```bash
 git clone https://github.com/YourUsername/Bosch-Predictive-Maintenance.git
-
-
-Model Metadata Analysis
-
 Install Dependencies
 
 bash
@@ -99,4 +95,9 @@ Open .pbix file in Power BI Desktop
 
 Connect to API for live predictions
 
+Future Work
+Add Isolation Forest anomaly detection
 
+Integrate streaming pipelines for real-time ingestion
+
+Improve explainability using SHAP
