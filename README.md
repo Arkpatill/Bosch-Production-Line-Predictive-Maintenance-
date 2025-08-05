@@ -69,14 +69,13 @@ This project addresses these challenges with **predictive analytics** and **real
 
 
 ## **Visuals**
-![Confusion Matrix](Confusion%20Matrix%20.png)  
-![Factor Covariance](Factor%20Covariance%20.png)  
+
 ![Facts and Dimmension Table](Facts%20and%20Dimmension%20Table%20.png)  
-![Failure Analysis](Failure%20Analysis%20.png)  
+
 ![Failure Vs Error](Failure%20Vs%20Error%20.png)  
 ![Interactive Features Understanding](Interactive%20Features%20Understanding%20.png)  
 ![Model IDs](Model%20IDs%20.png)  
-![ROC Curve](ROC%20Curve%20.png)  
+
 ![Time-Series Failure Analysis](Time-Series%20Failure%20Analysis%20.png)  
 
 
