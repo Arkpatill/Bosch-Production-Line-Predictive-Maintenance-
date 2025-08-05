@@ -1,4 +1,4 @@
-<h1 style="font-size:40px;"> Predictive Maintenance for Bosch Production Line using Modern Technologies</h1>
+<h1 style="font-size:40px;">📊 Predictive Maintenance for Bosch Production Line using Modern Technologies</h1>
 
 ## **Introduction**
 This project leverages **Machine Learning (ML)**, **Deep Learning (DL)**, and **Power BI** to **predict failures** in Bosch production line machinery before they occur.  
@@ -56,8 +56,7 @@ This project addresses these challenges with **predictive analytics** and **real
 
 ---
 
-
-## Results
+## **Results**
 - **ROC Curve:** Achieved an AUC of *0.75*  
 - **Decisions & Insights:**  
   1. **Vibration–Failure Link:** Machines with sustained vibration above ~76 units show a higher probability of imminent failure — proactive maintenance should be scheduled in such cases.  
@@ -66,32 +65,23 @@ This project addresses these challenges with **predictive analytics** and **real
   4. **Operational Age Impact:** Older machines (average age ~12 years) demonstrate a higher variance in failure rate; targeted replacements or overhauls can improve overall production line stability.  
 - **Dashboard:** Delivered real-time, interactive insights into production health, including failure vs. error distribution, time-series patterns, vibration covariance, and component-level analysis.
 
-
 ---
 
 ## **Visuals**
- 
-
-![Failure vs Error](Failure%20Vs%20Error%20.png)  
-![Time-Series Failure Analysis](Time-Series%20Failure%20Analysis%20.png)  
-![ROC Curve](ROC%20Curve%20.png)  
-![Confusion Matrix](Confusion%20Matrix%20.png)  
+![Confusion Matrix](Confusion%20Matrix.png)  
+![Factor Covariance](Factor%20Covariance.png)  
+![Facts and Dimension Table](Facts%20and%20Dimmension%20Table.png)  
+![Failure Analysis](Failure%20Analysis.png)  
+![Failure Vs Error](Failure%20Vs%20Error.png)  
+![Interactive Features Understanding](Interactive%20Features%20Understanding.png)  
+![Model IDs](Model%20IDs.png)  
+![ROC Curve](ROC%20Curve.png)  
+![Time-Series Failure Analysis](Time-Series%20Failure%20Analysis.png)  
 
 ---
 
 ## **How to Run**
-1. **Clone Repository**
+
+### 1. Clone Repository
 ```bash
 git clone https://github.com/YourUsername/Bosch-Predictive-Maintenance.git
-Install Dependencies
-
-pip install -r requirements.txt
-
-Run Model API
-python app.py
-
-View Dashboard
-Open .pbix file in Power BI Desktop
-
-Connect to API for live predictions
-
