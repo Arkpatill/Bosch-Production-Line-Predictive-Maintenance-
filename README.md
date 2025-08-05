@@ -1,4 +1,4 @@
-<h1 style="font-size:40px;">📊 Predictive Maintenance for Bosch Production Line using Modern Technologies</h1>
+<h1 style="font-size:40px;"> Predictive Maintenance for Bosch Production Line using Modern Technologies</h1>
 
 ## **Introduction**
 This project leverages **Machine Learning (ML)**, **Deep Learning (DL)**, and **Power BI** to **predict failures** in Bosch production line machinery before they occur.  
