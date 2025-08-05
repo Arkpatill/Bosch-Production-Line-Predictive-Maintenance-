@@ -81,8 +81,22 @@ git clone https://github.com/YourUsername/Bosch-Predictive-Maintenance.git
 
 Model Metadata Analysis
 
-pip install -r requirements.txt
+Install Dependencies
 
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run Model API
+
+bash
+Copy
+Edit
 python app.py
+View Dashboard
+
+Open .pbix file in Power BI Desktop
+
+Connect to API for live predictions
 
 
