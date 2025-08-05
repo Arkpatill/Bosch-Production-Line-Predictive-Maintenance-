@@ -79,25 +79,13 @@ This project addresses these challenges with **predictive analytics** and **real
 git clone https://github.com/YourUsername/Bosch-Predictive-Maintenance.git
 Install Dependencies
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 Run Model API
-
-bash
-Copy
-Edit
 python app.py
-View Dashboard
 
+View Dashboard
 Open .pbix file in Power BI Desktop
 
 Connect to API for live predictions
 
-Future Work
-Add Isolation Forest anomaly detection
-
-Integrate streaming pipelines for real-time ingestion
-
-Improve explainability using SHAP
