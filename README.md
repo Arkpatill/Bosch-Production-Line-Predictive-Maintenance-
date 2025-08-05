@@ -56,10 +56,16 @@ This project addresses these challenges with **predictive analytics** and **real
 
 ---
 
-## **Results**
-- **ROC Curve:** Achieved AUC of *0.75*  
-- **Decisions:** Generated **4 actionable insights** linking failures with telemetry patterns  
-- **Dashboard:** Delivered real-time, interactive insights into production health  
+
+## Results
+- **ROC Curve:** Achieved an AUC of *0.75*  
+- **Decisions & Insights:**  
+  1. **Vibration–Failure Link:** Machines with sustained vibration above ~76 units show a higher probability of imminent failure — proactive maintenance should be scheduled in such cases.  
+  2. **Model Reliability:** Model 3 exhibits the highest failure and error count; prioritizing inspections and redesign for this model can reduce downtime significantly.  
+  3. **Component Vulnerability:** Failures are concentrated in specific components (comp1–comp4) with identifiable time-series patterns — staggered maintenance schedules can preempt peak failure months.  
+  4. **Operational Age Impact:** Older machines (average age ~12 years) demonstrate a higher variance in failure rate; targeted replacements or overhauls can improve overall production line stability.  
+- **Dashboard:** Delivered real-time, interactive insights into production health, including failure vs. error distribution, time-series patterns, vibration covariance, and component-level analysis.
+
 
 ---
 
