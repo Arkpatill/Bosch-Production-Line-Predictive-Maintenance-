@@ -1,4 +1,6 @@
 Predictive Maintenance for Bosch Production Line using Modern Technologies
+
+
 Introduction
 This project leverages machine learning, deep learning, and interactive data visualization to predict failures in Bosch production line machinery before they occur. By analyzing telemetry, maintenance, error, and failure data, the system proactively identifies potential breakdowns, reduces unplanned downtime, and optimizes maintenance schedules.
 
