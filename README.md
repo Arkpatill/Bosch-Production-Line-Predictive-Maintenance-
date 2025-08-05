@@ -74,7 +74,7 @@ This project addresses these challenges with **predictive analytics** and **real
 
 ![Failure Vs Error](Failure%20Vs%20Error%20.png)  
 ![Interactive Features Understanding](Interactive%20Features%20Understanding%20.png)  
-![Model IDs](Model%20IDs%20.png)  
+
 
 ![Time-Series Failure Analysis](Time-Series%20Failure%20Analysis%20.png)  
 
