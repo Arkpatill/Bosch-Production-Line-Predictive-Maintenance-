@@ -1,71 +1,83 @@
-Predictive Maintenance for Bosch Production Line using Modern Technologies
+<h1 style="font-size:40px;">📊 Predictive Maintenance for Bosch Production Line using Modern Technologies</h1>
 
+## **Introduction**
+This project leverages **Machine Learning (ML)**, **Deep Learning (DL)**, and **Power BI** to **predict failures** in Bosch production line machinery before they occur.  
+By analyzing telemetry, maintenance, error, and failure data, the system proactively identifies potential breakdowns, **reduces unplanned downtime**, and **optimizes maintenance schedules**.
 
-Introduction
-This project leverages machine learning, deep learning, and interactive data visualization to predict failures in Bosch production line machinery before they occur. By analyzing telemetry, maintenance, error, and failure data, the system proactively identifies potential breakdowns, reduces unplanned downtime, and optimizes maintenance schedules.
+---
 
-Problem Statement
-In today’s business world, downtimes and errors can have a huge impact—causing financial losses, damaging reputation, and disrupting market flow. This project aims to address these challenges by implementing predictive maintenance powered by advanced analytics and visualization.
+## **Problem Statement**
+In today’s business world, **downtimes and errors** can have a huge impact — causing **financial losses**, **reputation damage**, and **market flow disruptions**.  
+This project addresses these challenges with **predictive analytics** and **real-time monitoring**.
 
-Dataset
-Source: Public Bosch Production Line dataset
+---
 
-Features:
+## **Dataset**
+- **Source:** Public Bosch Production Line dataset  
+- **Data Includes:**  
+  - **Telemetry data:** pressure, rotation, vibration, voltage  
+  - **Failure logs:** component-level failures  
+  - **Maintenance logs:** replacement history  
+  - **Error logs:** timestamps and error IDs  
+- **Scope:** 4 machine models, each tagged with a **production line number**  
 
-Telemetry data: pressure, rotation, vibration, voltage
+---
 
-Failure logs: component-level failure events
+## **Tech Stack**
+- **Languages & Libraries:** Python, NumPy, Pandas, Matplotlib, Seaborn, TensorFlow  
+- **Visualization:** Power BI  
+- **Deployment:** Flask/Django API on AWS / GCP / Azure  
 
-Maintenance logs: component replacement history
+---
 
-Error logs: error occurrences with IDs and timestamps
+## **Methodology**
+### **1. Data Preprocessing & Cleaning**
+- Missing value handling  
+- Feature engineering from telemetry & failure data  
+- Data normalization & scaling  
 
-Scope: 4 machine models, each tagged with a production line number
+### **2. Model Development**
+- **Deep Learning Models:**  
+  - LSTM for sequential time-series prediction  
+  - Dense Sequential networks for classification  
 
-Tech Stack
-Programming & ML/DL: Python, NumPy, Pandas, Matplotlib, Seaborn, TensorFlow
+### **3. Evaluation**
+- **Metrics:** ROC Curve, AUC Score, Model Accuracy  
 
-Visualization: Power BI
+### **4. Visualization**
+- Interactive **Power BI dashboards** for:  
+  - Failure analysis  
+  - Vibration covariance  
+  - Time-series failure trends  
+  - Component-level breakdowns  
 
-Deployment: Flask/Django API on AWS, GCP, or Azure
+### **5. Deployment**
+- Hosted on **Flask/Django API**, integrated with cloud infrastructure for **real-time predictions**  
 
-Methodology
-Data Preprocessing & Cleaning
+---
 
-Missing value handling
+## **Results**
+- **ROC Curve:** Achieved AUC of *0.75*  
+- **Decisions:** Generated **4 actionable insights** linking failures with telemetry patterns  
+- **Dashboard:** Delivered real-time, interactive insights into production health  
 
-Feature engineering from telemetry and failure data
+---
 
-Normalization & scaling
+## **Visuals**
+> *(These will display once you upload the screenshots to your repo in the same folder as this README)*  
 
-Model Development
+![Failure vs Error](Failure%20Vs%20Error%20.png)  
+![Time-Series Failure Analysis](Time-Series%20Failure%20Analysis%20.png)  
+![ROC Curve](ROC%20Curve%20.png)  
+![Confusion Matrix](Confusion%20Matrix%20.png)  
 
-Deep Learning Models: LSTM for sequential time-series prediction, Dense Sequential networks for classification
+---
 
-Evaluation
+## **How to Run**
+1. **Clone Repository**
+```bash
+git clone https://github.com/YourUsername/Bosch-Predictive-Maintenance.git
 
-ROC Curve, AUC Score, Model Accuracy
-
-Visualization
-
-Interactive Power BI dashboards for failure analysis, vibration covariance, time-series failure trends, and component-wise breakdowns
-
-Deployment
-
-Model hosted on Flask/Django API, integrated with cloud infrastructure for real-time prediction delivery
-
-Results
-ROC Curve: Achieved an AUC of 0.75
-
-Decisions: Generated 4 key decision points by correlating failure patterns with telemetry data
-
-Dashboard: Delivered real-time interactive insights on:
-
-Failure vs. Error Distribution
-
-Time-Series Failure Trends
-
-Vibration Covariance with Failures
 
 Model Metadata Analysis
 
