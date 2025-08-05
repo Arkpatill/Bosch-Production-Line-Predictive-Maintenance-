@@ -64,7 +64,7 @@ This project addresses these challenges with **predictive analytics** and **real
 ---
 
 ## **Visuals**
-> *(These will display once you upload the screenshots to your repo in the same folder as this README)*  
+ 
 
 ![Failure vs Error](Failure%20Vs%20Error%20.png)  
 ![Time-Series Failure Analysis](Time-Series%20Failure%20Analysis%20.png)  
