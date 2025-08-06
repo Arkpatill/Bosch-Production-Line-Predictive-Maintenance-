@@ -87,6 +87,11 @@ This project addresses these challenges with **predictive analytics** and **real
 ```bash
 git clone https://github.com/Arkpatill/Bosch-Production-Line-Predictive-Maintenance-.git
 
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+
+
 
 
 
