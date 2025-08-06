@@ -84,8 +84,4 @@ This project addresses these challenges with **predictive analytics** and **real
 
 ---
 
-## **How to Run**
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/YourUsername/Bosch-Predictive-Maintenance.git
