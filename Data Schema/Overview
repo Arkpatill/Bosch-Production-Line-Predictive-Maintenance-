@@ -39,13 +39,5 @@ It integrates machine information with telemetry, error logs, failures, and main
 
 ---
 
-### **Relationship Summary**
-- `machineID` is the **Primary Key** in the Fact Table and **Foreign Key** in all Dimensions.  
-- **Many-to-One:** All dimension tables connect to the Fact Table.  
-- **Many-to-Many:**  
-  - `PdM_failures` ↔ `PdM_maint` via `machineID`.  
-  - `PdM_errors` ↔ `PdM_maint` via `machineID`.
+![Facts and Dimension Table](Data%20Schema/Facts%20and%20Dimmension%20Table.png)
 
----
-
-![Facts and Dimension Table](Facts%20and%20Dimmension%20Table.png)
