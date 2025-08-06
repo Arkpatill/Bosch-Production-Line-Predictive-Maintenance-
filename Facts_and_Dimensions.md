@@ -33,4 +33,19 @@ It integrates machine information with telemetry, error logs, failures, and main
 
 4. **PdM_telemetry**  
    - **datetime** – Timestamp of telemetry reading.  
-   - **machineID** – Foreign Ke
+   - **machineID** – Foreign Key linking to `PdM_machines`.  
+   - **pressure, rotate, vibration, volt** – Sensor readings from the machine.  
+   - **Relationship:** Many-to-one with `PdM_machines`.
+
+---
+
+### **Relationship Summary**
+- `machineID` is the **Primary Key** in the Fact Table and **Foreign Key** in all Dimensions.  
+- **Many-to-One:** All dimension tables connect to the Fact Table.  
+- **Many-to-Many:**  
+  - `PdM_failures` ↔ `PdM_maint` via `machineID`.  
+  - `PdM_errors` ↔ `PdM_maint` via `machineID`.
+
+---
+
+![Facts and Dimension Table](Facts%20and%20Dimmension%20Table.png)
