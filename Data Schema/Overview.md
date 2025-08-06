@@ -39,5 +39,6 @@ It integrates machine information with telemetry, error logs, failures, and main
 
 ---
 
-![Facts and Dimension Table]([Data%20Schema/Facts%20and%20Dimmension%20Table.png](https://github.com/Arkpatill/Bosch-Production-Line-Predictive-Maintenance-/blob/main/Data%20Schema/Facts%20and%20Dimmension%20Table%20.png?raw=true))
+![Facts and Dimension Table](<img width="1906" height="1159" alt="image" src="https://github.com/user-attachments/assets/e22a57c2-bb78-4251-92de-6b51a222ce15" />
+)
 
