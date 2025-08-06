@@ -85,7 +85,7 @@ This project addresses these challenges with **predictive analytics** and **real
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/Arkpatill/Bosch-Production-Line-Predictive-Maintenance.git
+git clone https://github.com/Arkpatill/Bosch-Production-Line-Predictive-Maintenance-.git
 
 
 
