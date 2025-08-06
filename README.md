@@ -81,6 +81,17 @@ This project addresses these challenges with **predictive analytics** and **real
 
 ![Time-Series Failure Analysis](Time-Series%20Failure%20Analysis%20.png)  
 
+## How to Run
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/Arkpatill/Bosch-Production-Line-Predictive-Maintenance.git
+
+
+
+
+
+
 
 ---
 
