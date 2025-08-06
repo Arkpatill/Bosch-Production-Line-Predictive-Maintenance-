@@ -39,6 +39,5 @@ It integrates machine information with telemetry, error logs, failures, and main
 
 ---
 
-![Facts and Dimension Table](<img width="1906" height="1159" alt="image" src="https://github.com/user-attachments/assets/e22a57c2-bb78-4251-92de-6b51a222ce15" />
-)
+
 
