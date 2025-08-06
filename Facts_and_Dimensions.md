@@ -1,23 +1,36 @@
 ## **Facts and Dimensions Overview**
 
-The Bosch Predictive Maintenance dataset is organized in a **star schema** to integrate machine details, telemetry, errors, failures, and maintenance data efficiently.
+The diagram below represents the **star schema** used in the Bosch Predictive Maintenance dataset.  
+It integrates machine information with telemetry, error logs, failures, and maintenance records to enable comprehensive predictive analysis.
 
-- **Fact Table:**  
-  **PdM_machines** — Contains `machineID` (Primary Key), `model`, and `age`. Acts as the central table connecting to all dimensions.
-
-- **Dimension Tables:**  
-  1. **PdM_errors** — Logs errors with `datetime`, `machineID`, and `errorID`.  
-  2. **PdM_failures** — Records failures with `datetime`, `machineID`, and `failure` (component failed).  
-  3. **PdM_maint** — Tracks maintenance events with `datetime`, `machineID`, and `comp` (component maintained).  
-  4. **PdM_telemetry** — Stores telemetry readings (`datetime`, `machineID`, and sensor data like pressure, rotation, vibration, voltage).
-
-- **Relationships:**  
-  - `machineID` is the **primary key** in the fact table and a **foreign key** in all dimensions.  
-  - **Many-to-One:** All dimension tables link to the fact table.  
-  - **Many-to-Many:**  
-    - Between `PdM_failures` and `PdM_maint` via `machineID`.  
-    - Between `PdM_errors` and `PdM_maint` via `machineID`.
+### **Fact Table**
+- **PdM_machines** *(Primary Key: machineID)*  
+  - **machineID** – Unique identifier for each machine.  
+  - **model** – Machine model type (e.g., model1, model2, etc.).  
+  - **age** – Age of the machine in years.  
+  - **Role:** Central fact table linking to all dimension tables.
 
 ---
 
-![Facts and Dimension Table](Facts%20and%20Dimmension%20Table.png)
+### **Dimension Tables**
+1. **PdM_errors**  
+   - **datetime** – Timestamp of error occurrence.  
+   - **errorID** – Identifier for the specific error type.  
+   - **machineID** – Foreign Key linking to `PdM_machines`.  
+   - **Relationship:** Many-to-one with `PdM_machines`.
+
+2. **PdM_failures**  
+   - **datetime** – Timestamp of failure.  
+   - **failure** – Component that failed (comp1–comp4).  
+   - **machineID** – Foreign Key linking to `PdM_machines`.  
+   - **Relationship:** Many-to-one with `PdM_machines` and many-to-many with `PdM_maint`.
+
+3. **PdM_maint**  
+   - **comp** – Component maintained or replaced.  
+   - **datetime** – Maintenance timestamp.  
+   - **machineID** – Foreign Key linking to `PdM_machines`.  
+   - **Relationship:** Many-to-one with `PdM_machines`; many-to-many with `PdM_failures` and `PdM_errors`.
+
+4. **PdM_telemetry**  
+   - **datetime** – Timestamp of telemetry reading.  
+   - **machineID** – Foreign Ke
